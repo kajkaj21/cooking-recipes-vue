@@ -1,4 +1,10 @@
-# recipe-app
+# Cooking recipes app
+
+That is a cooking recipes app in which you can add new recipes, edit your recipes or delete them. Your recipes are stored in the local storage. I used Vue, Vite, Pinia and TypeScript to build this app.
+
+https://kajetan-szczepanski-cooking-recipes-vue.netlify.app/
+
+## recipe-app
 
 This template should help get you started developing with Vue 3 in Vite.
 
