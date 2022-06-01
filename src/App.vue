@@ -14,7 +14,7 @@ watch(
 
 onMounted(() => {
   const localData: NewRecipe[] =
-    JSON.parse(localStorage.getItem("recipes-data")) || recipesStore.recipes;
+    JSON.parse(localStorage.getItem("recipes-data")!) || recipesStore.recipes;
   recipesStore.recipes = localData;
 });
 </script>
